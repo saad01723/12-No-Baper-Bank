@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Welcomer Your Acount </title>
+
+    <link rel="stylesheet" href="new.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  </head>
+<body>
+
+  <header>
+    <div class="container">
+      <div class="head">
+          <h1 class=" fs-1 text-center text-primary my-4"><marquee >Welcome  Baper Bank</marquee></h1>
+      </div>
+    </div>  
+  </header>
+
+  <main>
+    <div class="container">
+      <div class="row d-flex justify-content-evenly mt-5">
+        <div class="col-3 bg-primary Comon">
+          <div class="ms-4">
+            <h2 class="text-white">Deposite</h2>
+            <h5 class="text-white mt-3" ><span id="total-deposite">00</span>Taka </h5>
+          </div>
+        </div>
+
+        <div class="col-3 bg-danger Comon">
+          <div class="ms-4">
+            <h2 class="text-white">Withdrow</h2>
+            <h5 class="text-white mt-3" ><span id="totalWidthrow">00</span> Taka</h5>
+          </div>
+        </div>
+
+        <div class="col-3 bg-warning Comon">
+          <div class="ms-4">
+            <h2 class="text-white">Balance </h2>
+            <h5 class="text-white mt-3" ><span id="total-blance">50000</span>Taka</h5>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="row d-flex justify-content-evenly mt-5">
+        <div class="col-4 bg-info p-4 rounded" >
+          <label for="" class="fs-3 fw-semibold">Plece Deposite </label>
+          <input type="number" id="deposite-input-one" class="d-block mt-2 w-100 b-border" placeholder="Your Amount">
+
+          <div>
+            <button class="w-25 btn btn-warning my-2 mt-2" id="submit-d-btn">Submit</button>
+          </div>
+
+        </div>
+        <div class="col-4 bg-danger p-4 rounded-4" >
+          <label for="" class="fs-3 fw-semibold text-white">Plece Withdrow </label>
+          <input type="number" id="Withdrow-input-two" class="d-block mt-2 w-100 b-border" placeholder="Your Amount">
+
+          <div>
+            <button class="w-25 btn btn-warning my-2 mt-2" id="submit-w-btn">Submit</button>
+          </div>
+      </div>
+
+
+
+    </div>
+  </main>
+
+
+
+
+    <script src="new.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
